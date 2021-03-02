@@ -13,8 +13,8 @@ spec:
       labels:
         app: myapp
         type: frontend
-      spec:
-        container:
-        - name: nginx-controller
-          image: nginx
+    spec:
+      container:
+      - name: nginx-controller
+        image: nginx
   replicas: 3
